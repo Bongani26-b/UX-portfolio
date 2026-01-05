@@ -602,9 +602,11 @@ section {
 
 .cs-gallery {
     display: grid;
-    grid-template-columns: repeat(4, minmax(20px, 1fr));
+    grid-template-columns: repeat(2, minmax(20px, 1fr));
     gap: var(--spacing-lg);
     margin-top: var(--spacing-lg);
+    padding-right:50%;
+   
 }
 
 .cs-gallery-item {
