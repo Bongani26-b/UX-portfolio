@@ -114,6 +114,7 @@ h6 {
 .btn-primary {
     background-color: var(--color-orange);
     color: var(--color-white);
+   
 }
 
 .btn-primary:hover {
@@ -132,6 +133,23 @@ h6 {
     color: var(--color-black);
     transform: translateY(-2px);
 }
+
+.btn-secondary {
+    display: inline-block;
+  padding: 12px 24px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid var(--color-orange);
+  --border-radius-sm: 8px;
+  --border-radius-md: 16px;
+  text-decoration: none;
+}
+
+.btn-secondary:hover{
+   background-color: rgba(255, 146, 3, 0.3);
+   transform: translateY(-2px);
+}
+
 
 /* Navbar (Basic) */
 .navbar {
@@ -550,8 +568,9 @@ section {
 }
 
 .cs-content-width {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .bg-gray {
@@ -602,10 +621,18 @@ section {
 
 .cs-gallery {
     display: grid;
-    grid-template-columns: repeat(2, minmax(20px, 1fr));
+    grid-template-columns: repeat(4, minmax(50px, 1fr));
     gap: var(--spacing-lg);
     margin-top: var(--spacing-lg);
-    padding-right:50%;
+    
+   
+}
+.cs-gallery-obse {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(50px, 1fr));
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-lg);
+    
    
 }
 
